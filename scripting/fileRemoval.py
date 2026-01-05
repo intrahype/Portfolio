@@ -1,7 +1,6 @@
 # Script to go through a given directory recusively and remove files based on file extension
 
 import os
-from pathlib import Path
 
 """ 
 Directory path should be formatted as follows:
