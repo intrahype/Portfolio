@@ -5,7 +5,8 @@ import os
 """ 
 Directory path should be formatted as follows:
  '<disk>:/path/to/file
- example: C:/Users/test/testUser/Downloads 
+ Windows example: C:/Users/test/testUser/Downloads 
+ MacOS example: /Volume/folderName
 """
 
 directoryToUse = <insert path to top folder here>
