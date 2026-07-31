@@ -1,4 +1,4 @@
-# Script to go through a given directory recusively and remove files based on file extension
+# Script to go through a given directory recursively and remove files based on file extension
 
 import os
 
