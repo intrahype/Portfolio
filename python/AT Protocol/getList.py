@@ -37,7 +37,7 @@ def main():
             response = client.app.bsky.graph.get_list({'list': myModList, 'cursor': cursor, 'limit': 100})  #limit must be between 0-100, defaults to 50
             newitems = response.items
             for item in newitems:
-                 blockList.write(item.subject.did + ',\n')
+                 <filename>.write(item.subject.did + ',\n')
             old_cursor = cursor
             cursor = response.cursor
             # check cursor against old to protect against infinite loops
